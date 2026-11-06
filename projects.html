@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | Your Name</title>
+  <title>Projects | Christopher Laing</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <nav>
-    <div class="brand">Your Name</div>
+    <div class="brand">Christopher Laing</div>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="skills.html">Skills</a></li>
@@ -22,71 +22,99 @@
 
   <main>
     <h1>Projects</h1>
-    <p class="subtitle">Collegiate, internship, and capstone work — the problems I solved and how.</p>
+    <p class="subtitle">Internship and coursework projects — the problems I solved and how.</p>
 
-    <!-- =========================================================
-         PROJECT CARD TEMPLATE — copy this whole <section> block
-         to add another project. Each project should cover all 5
-         parts: problem, your work, challenges, artifacts, impact.
-         ========================================================= -->
     <section class="project-card">
-      <h2>Project Title (e.g. "Retail Demand Forecasting Dashboard")</h2>
+      <h2>Automating the Weekly C-Suite Dashboard</h2>
       <div class="project-meta">
-        <span>📅 Capstone Project, Fall 2026</span>
-        <span>🛠️ Python, Tableau, SQL</span>
+        <span>📅 Alteryx, Insights & Analytics Internship — Summer 2026</span>
+        <span>🛠️ Alteryx Designer, Tableau, SQL, AppScript</span>
       </div>
 
       <h3>The Business Problem</h3>
       <p>
-        Describe the context: who the "client" was (a real company, a hypothetical,
-        or your own idea), what problem they faced, and why it mattered. Example:
-        "A regional retailer needed a way to forecast weekly demand per store to
-        reduce overstock, which was costing them an estimated $X per quarter."
+        Leadership relied on a weekly dashboard to track company performance, but
+        building it was a manual process that took roughly 3 hours every week —
+        pulling data from multiple sources, cleaning it, and reformatting it before it
+        could even reach Tableau. That manual process was also a source of data
+        accuracy issues, since any copy/paste or formatting slip could throw off the
+        numbers leadership was making decisions on.
       </p>
 
       <h3>My Role & What I Did</h3>
       <p>
-        Explain your specific contribution, especially if this was a team project.
-        Example: "I was responsible for data cleaning and building the forecasting
-        model; a teammate handled the dashboard front-end. I pulled 2 years of sales
-        data, engineered seasonal features, and tested 3 forecasting models before
-        selecting the best performer."
+        I owned the end-to-end redesign of the dashboard pipeline. I built automated
+        Alteryx workflows to blend, clean, and structure data from multiple source
+        systems into a single, reliable dataset, then used Alteryx Designer and
+        Tableau together to fully automate the weekly dashboard build. I also wrote a
+        Google AppScript automation to keep a Google Sheet synchronized with the
+        executive dashboard, so updates on one side flowed through without manual
+        re-entry.
       </p>
 
       <h3>Challenges I Overcame</h3>
       <p>
-        Be specific and honest — this is what shows real problem-solving. Example:
-        "The raw data had inconsistent store IDs across two source systems. I wrote
-        a matching script to reconcile roughly 1,200 mismatched records before I
-        could run any analysis."
+        The source data came from multiple systems that weren't designed to talk to
+        each other, so getting a single clean dataset required careful blending logic
+        in Alteryx rather than a simple merge. Keeping the Google Sheet and dashboard
+        in sync was another challenge — without automation, updates on one side easily
+        drifted out of sync with the other, which is exactly the kind of manual error
+        the project was meant to eliminate.
       </p>
 
       <h3>Artifacts</h3>
-      <!-- Swap in a real screenshot. Upload it to the /images folder first. -->
-      <img src="images/project1-screenshot.png" alt="Screenshot of dashboard">
+      <!-- TODO: add a real screenshot of the dashboard (with any sensitive data
+           blurred/removed) to images/alteryx-dashboard.png -->
+      <img src="images/alteryx-dashboard.png" alt="Screenshot of automated weekly dashboard">
       <p>
-        Link out to the real things you made:
-      </p>
-      <p>
-        <a class="btn" href="https://github.com/yourusername/your-repo" target="_blank">View Code on GitHub</a>
-        <a class="btn" href="https://youtube.com/your-demo-link" target="_blank">Watch Demo</a>
+        <!-- TODO: if you're able to share a sanitized version of the Alteryx workflow
+             or a demo video, link it here -->
+        Due to the sensitivity of internal company data, the live workflow and
+        dashboard can't be shared publicly, but I'm happy to walk through the
+        approach in an interview.
       </p>
 
       <h3>Business Value / Impact</h3>
       <p>
-        State the outcome, with a number if you have one. Example: "The model
-        reduced forecast error by 18% compared to the client's prior method,
-        which — applied at scale — could meaningfully cut overstock costs."
+        Cut dashboard production time from 3 hours to 5 minutes per week — a roughly
+        97% reduction in manual effort — while also improving data accuracy and
+        reliability. Freed up significant analyst time that had been spent on manual
+        data prep, and gave leadership a dashboard they could trust was current and
+        correct every week.
       </p>
     </section>
 
-    <!-- Duplicate the <section class="project-card"> block above for each
-         additional project (aim for at least 2–4 solid examples). -->
+    <!-- =========================================================
+         ADD YOUR CAPSTONE / COURSEWORK PROJECT(S) HERE.
+         Copy the <section class="project-card"> block above and fill in:
+         - The business problem / context for the project
+         - Your role (especially if it was a team project)
+         - A specific challenge you had to solve
+         - A screenshot, code link, or demo video
+         - The measurable impact or outcome
+         ========================================================= -->
+    <section class="project-card">
+      <h2>[Add your Business Information Analytics capstone or course project here]</h2>
+      <div class="project-meta">
+        <span>📅 [Course name / term]</span>
+        <span>🛠️ [Tools used — e.g. Power BI, SQL, Python, DAX]</span>
+      </div>
+      <h3>The Business Problem</h3>
+      <p>TODO: What problem did this project address, and for whom?</p>
+      <h3>My Role & What I Did</h3>
+      <p>TODO: What did you specifically build or analyze?</p>
+      <h3>Challenges I Overcame</h3>
+      <p>TODO: What was hard about it, and how did you solve it?</p>
+      <h3>Artifacts</h3>
+      <p>TODO: Add a screenshot of your dashboard/report to images/, or a link to code/demo.</p>
+      <h3>Business Value / Impact</h3>
+      <p>TODO: What was the outcome, grade, or insight this produced?</p>
+    </section>
 
   </main>
 
   <footer>
-    &copy; 2026 Your Name. Built with GitHub Pages.
+    &copy; 2026 Christopher Laing. Built with GitHub Pages.
   </footer>
 
 </body>
