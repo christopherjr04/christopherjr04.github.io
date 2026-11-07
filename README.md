@@ -8,9 +8,7 @@ https://christopherjr04.github.io
 - `skills.html` — technical and soft skills
 - `projects.html` — collegiate / internship / capstone project write-ups
 - `experience.html` — work experience
-- `education.html` — courses and what I learned in each
-- `about.html` — clubs, hobbies, more about me
+- `education.html` — subject-area strengths and study abroad
+- `about.html` — clubs, athletics, more about me
 - `style.css` — shared styling for all pages
 - `images/` — photos and project screenshots
-
-

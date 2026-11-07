@@ -1,16 +1,10 @@
-/* ============================================
-   PORTFOLIO STYLESHEET
-   Change the colors in :root below to re-theme
-   the entire site in one place.
-   ============================================ */
-
 :root {
-  --color-primary: #1b3a5c;     /* main brand color - nav bar, headings */
-  --color-accent: #e07a3f;      /* highlight color - buttons, links, tags */
-  --color-bg: #f7f7f5;          /* page background */
-  --color-card: #ffffff;        /* card/section background */
-  --color-text: #22262b;        /* body text */
-  --color-text-light: #5a6169;  /* secondary text */
+  --color-primary: #1b3a5c;
+  --color-accent: #e07a3f;
+  --color-bg: #f7f7f5;
+  --color-card: #ffffff;
+  --color-text: #22262b;
+  --color-text-light: #5a6169;
   --font-heading: "Georgia", "Times New Roman", serif;
   --font-body: "Helvetica Neue", Arial, sans-serif;
 }
@@ -27,7 +21,6 @@ body {
 a { color: var(--color-accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* ---------- NAV BAR ---------- */
 nav {
   background: var(--color-primary);
   padding: 1rem 2rem;
@@ -61,7 +54,6 @@ nav ul li a.active {
   border-bottom: 2px solid var(--color-accent);
 }
 
-/* ---------- LAYOUT ---------- */
 main {
   max-width: 900px;
   margin: 0 auto;
@@ -93,7 +85,6 @@ p { margin-bottom: 1rem; color: var(--color-text); }
   margin-bottom: 1.5rem;
 }
 
-/* ---------- HERO (home page) ---------- */
 .hero {
   display: flex;
   gap: 2rem;
@@ -135,7 +126,6 @@ p { margin-bottom: 1rem; color: var(--color-text); }
   color: var(--color-primary);
 }
 
-/* ---------- CONTACT ROW ---------- */
 .contact-row {
   display: flex;
   gap: 1.5rem;
@@ -144,7 +134,6 @@ p { margin-bottom: 1rem; color: var(--color-text); }
   font-size: 0.95rem;
 }
 
-/* ---------- SKILL TAGS ---------- */
 .tag-row {
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +149,6 @@ p { margin-bottom: 1rem; color: var(--color-text); }
   font-size: 0.85rem;
 }
 
-/* ---------- PROJECT CARDS ---------- */
 .project-card img {
   width: 100%;
   border-radius: 8px;
@@ -187,7 +175,6 @@ p { margin-bottom: 1rem; color: var(--color-text); }
 }
 .btn:hover { opacity: 0.9; text-decoration: none; }
 
-/* ---------- TIMELINE (experience/education) ---------- */
 .timeline-item {
   border-left: 3px solid var(--color-accent);
   padding-left: 1.2rem;
