@@ -13,7 +13,4 @@ https://christopherjr04.github.io
 - `style.css` — shared styling for all pages
 - `images/` — photos and project screenshots
 
-## To-do
-Replace the placeholder text in each page (look for HTML comments marked
-`<!-- CHANGE THIS -->` or similar) with real content, and add real photos
-to `images/`.
+
